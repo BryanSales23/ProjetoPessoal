@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Bryan Sales - Front End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-Zz3U7ZfE1TC9QvHRb6zJP1n3zbGOI8B1EJiF9qG9FpxbWgqRsVZtmcMabpRfdQ80S" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+
+<body class="bg-slate-100">
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0">
+                        <img class="h-16 rounded-full text-red-600" src="../imagens/front end logo.png" alt="">
+                    </a>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="#"
+                                class="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">Home</a>
+                            <a href="#"
+                                class="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">Sobre</a>
+                            <a href="#"
+                                class="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">Contato</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mr-2 flex md:hidden">
+                    <button id="botao" type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-300 ease-in-out"
+                        aria-label="Menu" aria-expanded="false">
+                        <svg class="h-6 w-6" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 sm:px-3">
+                <a href="#"
+                    class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out">Home</a>
+                <a href="#"
+                    class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out">Sobre</a>
+                <a href="#"
+                    class="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium transition duration-300 ease-in-out">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div id="sobreMim" class="container flex flex-col items-center md:flex-row justify-around">
+
+            <div class="mt-16">
+                <div class="h-56 w-56 mx-auto flex items-center justify-center md:h-96">
+                    <img class="md:h-72 rounded-full" src="../imagens/Bryan.jpg">
+                </div>
+            </div>
+
+            <div class="mx-10 mt-8 p-2 text-center space-y-2 sm:mt-16">
+                <p class="text-2xl">Olá, seja bem vindo!
+                </p>
+                <p class="text-2xl">Meu nome é</p>
+                <h3 class="text-3xl text-blue-900">Bryan Sales </h3>
+                <p class="text-gray-100 text-xl border-double border-4 bg-gray-700 p-2">Desenvolvedor
+                    Front End</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container flex flex-col items-center text-center mt-10">
+            <h3 class="text-2xl text-black-900 bg-yellow-100 border-8 p-2 font-bold">Sobre mim</h3>
+            <p class="border-double border-4 border-red-500 mx-4 mt-4 sm:w-64">Meu nome é Bryan, tenho 21 anos e sou apaixonado por programação e tecnologia.
+                <br>
+                Meu maior foco de estudos na programação tem sido destinado a área de Front-End, onde estou sempre aprendendo e evoluindo meus conhecimentos. 
+                <br>
+                Venho buscando uma oportunidade de ingressar no mercado de trabalho como programador e poder evoluir cada vez mais na área, me dedicando ao máximo.
+            </p>
+        </div>
+    </section>
+
+    <section class="tecnologias mt-6 p-6">
+        <div class="container flex flex-col items-center space-y-4">
+            <div class="mt-10 px-4 py-4">
+                <h3 class="text-3xl font-bold">Tecnologias e estudos</h3>
+            </div>
+            <div class="text-3xl border-double border-4 p-4 text-gray-700 bg-yellow-100">
+                <span>
+                    HTML 5
+                </span>
+                <i class="fa-brands fa-html5 fa-2xl" style="color: #ff8000;"></i>
+            </div>
+            <div class="text-3xl border-double border-4 p-4 text-gray-700 bg-yellow-100">
+                <span>
+                    CSS3
+                </span>
+                <i class="fa-brands fa-css3-alt fa-2xl" style="color: #0000ff;"></i>
+            </div>
+            <div class="text-3xl border-double border-4 p-4 text-gray-700 bg-yellow-100">
+                <span>
+                    React JS
+                </span>
+                <i class="fa-brands fa-react fa-2xl" style="color: #00ffff;"></i>
+            </div>
+            <div class="text-3xl border-double border-4 p-4 text-gray-700 bg-yellow-100">
+                <span>
+                    JavaScript
+                </span>
+                <i class="fa-brands fa-js" style="color: #ffff00;"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container flex center flex-col border-double border-4 border-red-500 mt-10 p-5">
+            <h2 class="text-3xl font-bold text-center mt-2">Certificações</h2>
+            <ul class="mt-4 ml-8 mr-6">
+                <li>- Tecnólogo em Análise e Desenvolvimento de Sistemas - Universidade Cruzeiro do Sul (2022).</li>
+                <li class="mt-2">- Formação HTML e CSS. - Alura.</li>
+                <li class="mt-2">- Formação JavaScript. - Alura.</li>
+                <li class="mt-2">- Curso React: desenvolvendo com JavaScript. - Alura.</li>
+                <li class="mt-2">- Curso React: como os componentes funcionam. - Alura.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="border-solid border-2 space-x-4">
+            <ul class="flex items-center text-center justify-center gap-16 my-8 p-4 h-8">
+                <a href="https://www.linkedin.com/in/bryan-sales/"><i class="fa-brands fa-linkedin fa-2xl hover:opacity-70"
+                        style="color: #004080;"></i></a>
+                <a href="https://github.com/BryanSales23"><i class="fa-brands fa-github fa-2xl hover:opacity-70"></i></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
